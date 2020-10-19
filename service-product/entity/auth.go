@@ -11,5 +11,7 @@ type AuthResponse struct {
 
 type Data struct {
 	Username string `json:"username"`
-	Token string `json:"token"`
+	Role int `json:"role"`
 }
+
+
